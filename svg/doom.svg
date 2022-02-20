@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   sodipodi:docname="doom.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   id="svg5"
+   version="1.1"
+   viewBox="0 0 135.46666 135.46667"
+   height="512"
+   width="512"
+   inkscape:export-filename="/home/halcyon/Pictures/public/png/doom.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title859">Doom Logo</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     showborder="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:zoom="1"
+     inkscape:cx="207.5"
+     inkscape:cy="254"
+     inkscape:window-width="1350"
+     inkscape:window-height="732"
+     inkscape:window-x="8"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient22824">
+      <stop
+         style="stop-color:#4c566a;stop-opacity:1"
+         offset="0"
+         id="stop22820" />
+      <stop
+         style="stop-color:#2e3440;stop-opacity:1"
+         offset="1"
+         id="stop22822" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient19586">
+      <stop
+         style="stop-color:#bf616a;stop-opacity:1;"
+         offset="0"
+         id="stop19582" />
+      <stop
+         style="stop-color:#ebcb8b;stop-opacity:1"
+         offset="1"
+         id="stop19584" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient18116">
+      <stop
+         style="stop-color:#973a42;stop-opacity:0.25678003"
+         offset="0"
+         id="stop18112" />
+      <stop
+         style="stop-color:#000104;stop-opacity:0.25"
+         offset="1"
+         id="stop18114" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient18116"
+       id="linearGradient18948"
+       gradientUnits="userSpaceOnUse"
+       x1="50.365398"
+       y1="55.208015"
+       x2="50.365398"
+       y2="74.842987" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient19586"
+       id="linearGradient19588"
+       x1="46.722206"
+       y1="54.67905"
+       x2="46.41095"
+       y2="72.55864"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter20552"
+       x="-0.0099511497"
+       y="-0.017456083"
+       width="1.0199023"
+       height="1.0349122">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.14666122"
+         id="feGaussianBlur20554" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter20556"
+       x="-0.009914804"
+       y="-0.016724375"
+       width="1.0198296"
+       height="1.0334488">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.14666122"
+         id="feGaussianBlur20558" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter20560"
+       x="-0.0099148042"
+       y="-0.01519608"
+       width="1.0198296"
+       height="1.0303922">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.14666122"
+         id="feGaussianBlur20562" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient22824"
+       id="radialGradient22372"
+       cx="35.537251"
+       cy="66.115448"
+       fx="35.537251"
+       fy="66.115448"
+       r="25.945236"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2898941,0,0,1.2898941,-10.302039,-19.166477)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.68624115,-29.891956)">
+    <g
+       id="g5368"
+       transform="matrix(1.8698731,0,0,1.8698731,0.59694272,-26.002209)"
+       inkscape:export-filename="/home/halcyon/Pictures/inkscape/png/doom.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <circle
+         style="fill:#2e3440;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.430514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="path20298"
+         cx="35.537251"
+         cy="66.115448"
+         r="36.223492"
+         inkscape:export-filename="/home/halcyon/Pictures/inkscape/png/doom.png"
+         inkscape:export-xdpi="359.01566"
+         inkscape:export-ydpi="359.01566" />
+      <circle
+         style="fill:url(#radialGradient22372);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.397748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="circle21025"
+         cx="35.537251"
+         cy="66.115448"
+         r="33.466606"
+         inkscape:export-filename="/home/halcyon/Pictures/inkscape/png/doom.png"
+         inkscape:export-xdpi="359.01566"
+         inkscape:export-ydpi="359.01566" />
+      <g
+         id="g21023"
+         transform="matrix(1.40435,0,0,1.40435,-14.369488,-26.733786)"
+         inkscape:export-filename="/home/halcyon/Pictures/inkscape/png/doom.png"
+         inkscape:export-xdpi="359.01566"
+         inkscape:export-ydpi="359.01566">
+        <path
+           id="path20528"
+           style="mix-blend-mode:normal;fill:#2e3440;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke;filter:url(#filter20560)"
+           d="m 18.098256,74.697951 0.207609,-0.493072 v 2.116669 l -0.207609,0.49307 z M 17.786843,54.533947 v 2.116667 l 0.519022,0.648777 5.942801,-0.648777 z m 6.461823,2.116667 1.764674,1.063995 V 70.48255 l -7.915085,6.332068 0.207609,-0.49307 V 57.299392 Z m -3.088181,3.06223 v 9.991173 l 1.738723,-1.323506 v -8.667667 z m 20.91661,-3.06223 1.1678,1.1678 v 11.859652 l -4.281932,3.140083 -3.607202,-2.880572 v -12.04131 l 1.115897,-1.245653 z m -3.736958,3.088181 v 9.575956 l 1.738724,-1.479213 v -8.096743 z m -4.697168,-3.088181 1.167799,1.1678 v 11.859652 l -4.281932,3.140083 -3.607202,-2.880572 v -12.04131 l 1.115897,-1.245653 z m -3.736959,3.088181 v 8.096743 l 1.738724,1.479213 v -9.575956 z m 19.930484,13.272334 0.415218,-0.596876 v 2.116669 l -0.415218,0.596874 v -2.116667 m 3.114132,1.012092 v 2.116667 l 0.337365,1.557068 v -2.116667 z m -3.114132,-17.372607 3.321741,-2.116667 v 2.116667 l -0.207609,0.622826 z m -6.539677,-2.116667 3.425546,2.116667 -2.932475,0.752581 -0.493071,-0.752581 v -2.116667 m 0.493071,2.869249 -0.493071,-0.752582 h 3.425546 l 1.608968,4.100274 1.505163,-4.100274 h 3.321741 l -0.207609,0.622827 V 76.13989 l 0.337365,1.557066 -1.686822,-1.245653 -1.764675,-1.323506 0.415218,-0.596875 v -6.902993 l -1.89443,5.164269 -1.946333,-6.928944 v 6.695384 l -2.802718,-2.102039 0.181657,-0.155707 z m -0.181657,10.936736 0.181657,-0.155708 v 2.116667 l -0.181657,0.155707 z" />
+        <path
+           id="path20530"
+           style="font-size:25.9511px;line-height:1.25;font-family:AmazDooMRight;-inkscape-font-specification:AmazDooMRight;letter-spacing:0px;mix-blend-mode:normal;fill:#2e3440;fill-opacity:1;stroke-width:0.648778;filter:url(#filter20556)"
+           d="m 43.789734,55.431631 -0.493071,-0.752582 3.425545,10e-7 1.608968,4.100274 1.505164,-4.100274 h 3.321741 l -0.207609,0.622827 v 18.866449 l 0.337364,1.557066 -1.686821,-1.245653 -1.764675,-1.323506 0.415217,-0.596875 v -6.902993 l -1.89443,5.164269 -1.946332,-6.928944 v 6.695384 l -2.802719,-2.102039 0.181658,-0.155707 z m -1.712793,-0.752581 1.167799,1.1678 v 11.859652 l -4.281931,3.140083 -3.607203,-2.880572 v -12.04131 l 1.115897,-1.245653 z m -3.736959,3.088181 v 9.575956 l 1.738724,-1.479213 v -8.096743 z m -4.697168,-3.088181 1.167799,1.1678 v 11.859652 l -4.281932,3.140083 -3.607202,-2.880572 v -12.04131 l 1.115897,-1.245653 z m -3.736959,3.088181 v 8.096743 l 1.738724,1.479213 v -9.575956 z m -5.657344,-3.088181 1.764674,1.063995 v 12.767941 l -7.915085,6.332068 0.207609,-0.49307 V 55.327828 L 17.786687,54.67905 Z m -3.088181,3.06223 v 9.991173 l 1.738723,-1.323506 V 57.74128 Z" />
+        <path
+           id="path20532"
+           style="font-size:25.9511px;line-height:1.25;font-family:AmazDooMRight;-inkscape-font-specification:AmazDooMRight;letter-spacing:0px;mix-blend-mode:normal;fill:#2e3440;fill-opacity:1;stroke-width:0.648777;filter:url(#filter20552)"
+           d="m 17.786511,54.678847 0.519348,0.649055 v 19.022094 l -0.207739,0.492993 0.736906,-0.589627 V 55.857068 l -0.519348,-0.649054 h 6.462138 l 1.235583,0.745172 v -0.210323 l -1.76475,-1.064016 z m 10.251054,0 -1.116211,1.245918 v 12.041126 l 0.529167,0.422712 V 56.453931 l 1.116211,-1.245917 h 5.605343 l -0.529167,-0.529167 z m 8.43411,0 -1.116211,1.245918 v 12.041126 l 0.529166,0.422712 V 56.453931 l 1.116211,-1.245917 h 5.605344 l -0.529167,-0.529167 z m 6.824906,0 0.492995,0.752925 v 12.897403 l -0.181385,0.156064 0.611333,0.458369 0.09922,-0.08527 v -12.8974 l -0.492997,-0.752924 h 3.104206 l -0.207741,-0.529167 z m 6.539653,0 -1.349272,3.677293 0.373621,0.952397 1.504817,-4.100523 h 2.616378 l 0.176217,-0.529167 z m -26.937373,3.591512 v 8.13852 l -1.209229,0.920358 v 0.932241 l 1.738395,-1.323432 v -8.667687 z m 8.745718,0.02584 v 9.046993 l -1.209743,-1.028877 v 0.07906 l 1.73891,1.478979 v -9.57616 z m 8.434113,0 v 7.568014 l -1.209747,1.028878 v 0.979268 l 1.738913,-1.478979 v -8.097181 z m 6.861079,6.124691 v 1.354439 l 1.417484,5.04517 0.21549,-0.58756 z m 3.841107,1.76475 -0.529166,1.442289 v 4.931481 l -0.415478,0.596863 0.589629,0.442351 0.355015,-0.510047 z" />
+        <path
+           id="path8688"
+           style="fill:#2e3440;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+           d="m 18.098256,74.697951 0.207609,-0.493072 v 2.116669 l -0.207609,0.49307 z M 17.786843,54.533947 v 2.116667 l 0.519022,0.648777 5.942801,-0.648777 z m 6.461823,2.116667 1.764674,1.063995 V 70.48255 l -7.915085,6.332068 0.207609,-0.49307 V 57.299392 Z m -3.088181,3.06223 v 9.991173 l 1.738723,-1.323506 v -8.667667 z m 20.91661,-3.06223 1.1678,1.1678 v 11.859652 l -4.281932,3.140083 -3.607202,-2.880572 v -12.04131 l 1.115897,-1.245653 z m -3.736958,3.088181 v 9.575956 l 1.738724,-1.479213 v -8.096743 z m -4.697168,-3.088181 1.167799,1.1678 v 11.859652 l -4.281932,3.140083 -3.607202,-2.880572 v -12.04131 l 1.115897,-1.245653 z m -3.736959,3.088181 v 8.096743 l 1.738724,1.479213 v -9.575956 z m 19.930484,13.272334 0.415218,-0.596876 v 2.116669 l -0.415218,0.596874 v -2.116667 m 3.114132,1.012092 v 2.116667 l 0.337365,1.557068 v -2.116667 z m -3.114132,-17.372607 3.321741,-2.116667 v 2.116667 l -0.207609,0.622826 z m -6.539677,-2.116667 3.425546,2.116667 -2.932475,0.752581 -0.493071,-0.752581 v -2.116667 m 0.493071,2.869249 -0.493071,-0.752582 h 3.425546 l 1.608968,4.100274 1.505163,-4.100274 h 3.321741 l -0.207609,0.622827 V 76.13989 l 0.337365,1.557066 -1.686822,-1.245653 -1.764675,-1.323506 0.415218,-0.596875 v -6.902993 l -1.89443,5.164269 -1.946333,-6.928944 v 6.695384 l -2.802718,-2.102039 0.181657,-0.155707 z m -0.181657,10.936736 0.181657,-0.155708 v 2.116667 l -0.181657,0.155707 z" />
+        <path
+           id="path14709"
+           style="font-size:25.9511px;line-height:1.25;font-family:AmazDooMRight;-inkscape-font-specification:AmazDooMRight;letter-spacing:0px;fill:url(#linearGradient19588);fill-opacity:1;stroke-width:0.648778"
+           d="m 43.789734,55.431631 -0.493071,-0.752582 3.425545,10e-7 1.608968,4.100274 1.505164,-4.100274 h 3.321741 l -0.207609,0.622827 v 18.866449 l 0.337364,1.557066 -1.686821,-1.245653 -1.764675,-1.323506 0.415217,-0.596875 v -6.902993 l -1.89443,5.164269 -1.946332,-6.928944 v 6.695384 l -2.802719,-2.102039 0.181658,-0.155707 z m -1.712793,-0.752581 1.167799,1.1678 v 11.859652 l -4.281931,3.140083 -3.607203,-2.880572 v -12.04131 l 1.115897,-1.245653 z m -3.736959,3.088181 v 9.575956 l 1.738724,-1.479213 v -8.096743 z m -4.697168,-3.088181 1.167799,1.1678 v 11.859652 l -4.281932,3.140083 -3.607202,-2.880572 v -12.04131 l 1.115897,-1.245653 z m -3.736959,3.088181 v 8.096743 l 1.738724,1.479213 v -9.575956 z m -5.657344,-3.088181 1.764674,1.063995 v 12.767941 l -7.915085,6.332068 0.207609,-0.49307 V 55.327828 L 17.786687,54.67905 Z m -3.088181,3.06223 v 9.991173 l 1.738723,-1.323506 V 57.74128 Z" />
+        <path
+           id="path14864"
+           style="font-size:25.9511px;line-height:1.25;font-family:AmazDooMRight;-inkscape-font-specification:AmazDooMRight;letter-spacing:0px;fill:url(#linearGradient18948);fill-opacity:1;stroke-width:0.648777"
+           d="m 17.786511,54.678847 0.519348,0.649055 v 19.022094 l -0.207739,0.492993 0.736906,-0.589627 V 55.857068 l -0.519348,-0.649054 h 6.462138 l 1.235583,0.745172 v -0.210323 l -1.76475,-1.064016 z m 10.251054,0 -1.116211,1.245918 v 12.041126 l 0.529167,0.422712 V 56.453931 l 1.116211,-1.245917 h 5.605343 l -0.529167,-0.529167 z m 8.43411,0 -1.116211,1.245918 v 12.041126 l 0.529166,0.422712 V 56.453931 l 1.116211,-1.245917 h 5.605344 l -0.529167,-0.529167 z m 6.824906,0 0.492995,0.752925 v 12.897403 l -0.181385,0.156064 0.611333,0.458369 0.09922,-0.08527 v -12.8974 l -0.492997,-0.752924 h 3.104206 l -0.207741,-0.529167 z m 6.539653,0 -1.349272,3.677293 0.373621,0.952397 1.504817,-4.100523 h 2.616378 l 0.176217,-0.529167 z m -26.937373,3.591512 v 8.13852 l -1.209229,0.920358 v 0.932241 l 1.738395,-1.323432 v -8.667687 z m 8.745718,0.02584 v 9.046993 l -1.209743,-1.028877 v 0.07906 l 1.73891,1.478979 v -9.57616 z m 8.434113,0 v 7.568014 l -1.209747,1.028878 v 0.979268 l 1.738913,-1.478979 v -8.097181 z m 6.861079,6.124691 v 1.354439 l 1.417484,5.04517 0.21549,-0.58756 z m 3.841107,1.76475 -0.529166,1.442289 v 4.931481 l -0.415478,0.596863 0.589629,0.442351 0.355015,-0.510047 z" />
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata848">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:title>Doom Logo</dc:title>
+        <dc:date>03.02.22</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Said Gulmetov</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Creative Commons Attribution-NonCommercial 4.0 International License</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:source>https://gitlab.com/halcyonDawn</dc:source>
+        <dc:description>Doom logo using nord colorscheme and AmazDoom font</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
