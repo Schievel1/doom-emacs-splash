@@ -2,21 +2,21 @@
 #+AUTHOR: Tachanka
 
 * Table Of Contents :toc:
-- [[#license][License]]
-- [[#doom][Doom]]
+- [[#-license][📰 License]]
+- [[#-doom][😈 Doom]]
   - [[#description][Description]]
   - [[#variations][Variations]]
   - [[#reference][Reference]]
-- [[#emacs][Emacs]]
+- [[#-emacs][👴 Emacs]]
   - [[#description-1][Description]]
   - [[#variations-1][Variations]]
   - [[#reference-1][Reference]]
-- [[#arch-logo-collection][Arch logo collection]]
+- [[#-arch-logo-collection][🚪 Arch logo collection]]
   - [[#description-2][Description]]
   - [[#variations-2][Variations]]
   - [[#reference-2][Reference]]
 
-* License
+* 📰 License
 #+html: <p align="center">
 #+html:     <a href="https://creativecommons.org/licenses/by-sa/4.0/">
 #+html:         <img src="https://img.shields.io/badge/license-cc--by--sa-%235e81ac?style=flat-square&logo=Creative%20Commons&logoColor=white">
@@ -39,7 +39,7 @@ _Under the following terms:_
 
     *No additional restrictions* — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 #+END_QUOTE
-* Doom
+* 😈 Doom
 #+caption: Doom
 #+html: <p align="center">
 #+html:     <img src="svg/doom.svg"/>
@@ -66,7 +66,7 @@ There are also some variations (both vector and raster):
 | Colorscheme | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]]     |
 | Font        | [[https://www.fontspace.com/amaz-doom-font-f9098][AmazDoom]] |
 |-------------+----------|
-* Emacs
+* 👴 Emacs
 #+caption: Emacs
 #+html: <p align="center"><img src="svg/emacs.svg"/><p/>
 ** Description
@@ -82,7 +82,7 @@ This work has no variations, but it has some raster images:
 | Colorscheme           | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]]    |
 | Inspired and based on | [[https://icon-icons.com/icon/emacs/93840][Papirus]] |
 |-----------------------+---------|
-* Arch logo collection
+* 🚪 Arch logo collection
 #+caption: Arch logos
 #+html: <p align="center"><img src="svg/arches.svg"/><p/>
 ** Description
