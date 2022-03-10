@@ -14,6 +14,10 @@
   - [[#description-2][Description]]
   - [[#variations-2][Variations]]
   - [[#reference-2][Reference]]
+- [[#-deniz-mall][🌊 Deniz Mall]]
+  - [[#description-3][Description]]
+  - [[#variations-3][Variations]]
+  - [[#reference-3][Reference]]
 
 * 📰 License
 #+html: <p align="center">
@@ -92,4 +96,17 @@ Comming soon!
 |-------------+------|
 | Colorscheme | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]] |
 | Arch        | [[https://archlinux.org/][Arch]] |
+|-------------+------|
+* 🌊 Deniz Mall
+#+caption: Deniz Mall
+#+html: <p align="center"><img src="svg/denizMall.svg"/><p/>
+** Description
+Just vectorized image of Deniz Mall.
+** Variations
+Different variations are included in svg file, but there is also raster image:
++ [[https://github.com/tachanka61/graphics/blob/main/png/denizMall.png][denizMall.png]]
+** Reference
+|-------------+------|
+| Colorscheme | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]] |
+| Deniz Mall  | [[https://www.denizmall.az/en/][Site]] |
 |-------------+------|
