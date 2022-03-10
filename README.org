@@ -58,12 +58,10 @@ There are also some variations (both vector and raster):
 + doomWithShadow.svg
 #+CAPTION: Doom with shadow
 #+html: <p align="center"><img src="svg/doomWithShadow.svg"/><p/>
-+ 256x256.png
-+ 256x256.png (with shadow)
-+ 512x512.png
-+ 1024x1024.png
-+ 512x512.png (with shadow)
-+ 1024x1024.png (with shadow)
++ [[https://github.com/tachanka61/graphics/blob/main/png/doom/doom256.png][256x256.png]]
++ [[https://github.com/tachanka61/graphics/blob/main/png/doom/doomWithShadow256.png][256x256.png (with shadow)]]
++ [[https://github.com/tachanka61/graphics/blob/main/png/doom/doom1024.png][1024x1024.png]]
++ [[https://github.com/tachanka61/graphics/blob/main/png/doom/doomWithShadow1024.png][1024x1024.png (with shadow)]]
 ** Reference
 |-------------+----------|
 | Colorscheme | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]]     |
@@ -77,9 +75,8 @@ Emacs logo, inspired and based on Papirus icon theme.
 Like Doom, also can be used as dashboard image.
 ** Variations
 This work has no variations, but it has some raster images:
-+ emacs256.png
-+ emacs512.png
-+ emacs1024.png
++ [[https://github.com/tachanka61/graphics/blob/main/png/emacs/emacs256.png][emacs256.png]]
++ [[https://github.com/tachanka61/graphics/blob/main/png/emacs/emacs1024.png][emacs1024.png]]
 ** Reference
 |-----------------------+---------|
 | Colorscheme           | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]]    |
@@ -91,7 +88,7 @@ This work has no variations, but it has some raster images:
 ** Description
 Arch logos made from scratch. See license and [[https://wiki.archlinux.org/title/DeveloperWiki:TrademarkPolicy][trademark policy of Arch Linux]].
 ** Variations
-+ archLogos.png
++ [[https://github.com/tachanka61/graphics/blob/main/png/archLogos/arch.png][arch.png]]
 ** Reference
 |-------------+------|
 | Colorscheme | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]] |
@@ -104,7 +101,7 @@ Arch logos made from scratch. See license and [[https://wiki.archlinux.org/title
 Just vectorized image of Deniz Mall.
 ** Variations
 Different variations are included in svg file, but there is also raster image:
-+ denizMall.png
++ [[https://github.com/tachanka61/graphics/blob/main/png/denizMall/denizMall.png][denizMall.png]]
 ** Reference
 |-------------+------|
 | Colorscheme | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]] |
