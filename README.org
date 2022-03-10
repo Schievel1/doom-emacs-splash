@@ -1,4 +1,3 @@
-#+TITLE: Artwork repository
 #+AUTHOR: Tachanka
 
 * Table Of Contents :toc:
@@ -19,7 +18,7 @@
 * 📰 License
 #+html: <p align="center">
 #+html:     <a href="https://creativecommons.org/licenses/by-sa/4.0/">
-#+html:         <img src="https://img.shields.io/badge/license-cc--by--sa-%235e81ac?style=flat-square&logo=Creative%20Commons&logoColor=white">
+#+html:         <img src="https://img.shields.io/badge/CC--BY--SA-161b22?style=for-the-badge&logo=Creative%20Commons&logoColor=white">
 #+html:     </a>
 #+html: </p>
 This work is licenced under [[https://creativecommons.org/licenses/by-sa/4.0/][Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]].
