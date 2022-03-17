@@ -49,7 +49,7 @@ _Under the following terms:_
 #+html: <p/>
 ** Description
 Doom logo using nord colorscheme and AmazDoom font.
-Can be used as image as dashboard image in Doom Emacs (and other Emacs distributions using doom-dashboard) using this code:
+Can be used as image as a dashboard image in Doom Emacs (and other Emacs distributions using doom-dashboard) using this code:
 #+BEGIN_SRC elisp
 (setq fancy-splash-image "/path/to/image/doom.svg")
 #+END_SRC
@@ -72,7 +72,7 @@ There are also some variations (both vector and raster):
 #+html: <p align="center"><img src="svg/emacs.svg"/><p/>
 ** Description
 Emacs logo, inspired and based on Papirus icon theme.
-Like Doom, also can be used as dashboard image.
+Like Doom, also can be used as a dashboard image.
 ** Variations
 This work has no variations, but it has some raster images:
 + [[https://github.com/tachanka61/graphics/blob/main/png/emacs/emacs256.png][emacs256.png]]
