@@ -1,31 +1,27 @@
 #+AUTHOR: Tachanka
 
 * Table Of Contents :toc:
-- [[#-license][📰 License]]
-- [[#-doom][😈 Doom]]
+- [[#license][License]]
+- [[#doom][Doom]]
   - [[#description][Description]]
   - [[#variations][Variations]]
-  - [[#reference][Reference]]
-- [[#-emacs][👴 Emacs]]
+- [[#gnu-emacs][GNU Emacs]]
   - [[#description-1][Description]]
   - [[#variations-1][Variations]]
-  - [[#reference-1][Reference]]
-- [[#-arch-logo-collection][🚪 Arch logo collection]]
+- [[#arch-logo-collection][Arch logo collection]]
   - [[#description-2][Description]]
   - [[#variations-2][Variations]]
-  - [[#reference-2][Reference]]
-- [[#-deniz-mall][🌊 Deniz Mall]]
-  - [[#description-3][Description]]
-  - [[#variations-3][Variations]]
-  - [[#reference-3][Reference]]
 
-* 📰 License
+* License
+
 #+html: <p align="center">
 #+html:     <a href="https://creativecommons.org/licenses/by-sa/4.0/">
 #+html:         <img src="https://img.shields.io/badge/CC--BY--SA-161b22?style=for-the-badge&logo=Creative%20Commons&logoColor=white">
 #+html:     </a>
 #+html: </p>
-This work is licenced under [[https://creativecommons.org/licenses/by-sa/4.0/][Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]].
+
+This work is licensed under [[https://creativecommons.org/licenses/by-sa/4.0/][Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]].
+
 #+BEGIN_QUOTE
 _You are free to:_
 
@@ -42,68 +38,59 @@ _Under the following terms:_
 
     *No additional restrictions* — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 #+END_QUOTE
-* 😈 Doom
-#+caption: Doom
-#+html: <p align="center">
-#+html:     <img src="svg/doom.svg"/>
-#+html: <p/>
+
+* Doom
+
+#+html: <p align="center"> <img src="svg/doom.svg"/><p/>
+
 ** Description
-Doom logo using nord colorscheme and AmazDoom font.
+Doom logo using Nord colorscheme and AmazDoom font.
 Can be used as image as a dashboard image in Doom Emacs (and other Emacs distributions using doom-dashboard) using this code:
+
 #+BEGIN_SRC elisp
 (setq fancy-splash-image "/path/to/image/doom.svg")
 #+END_SRC
+
 ** Variations
 There are also some variations (both vector and raster):
+
 + doomWithShadow.svg
-#+CAPTION: Doom with shadow
-#+html: <p align="center"><img src="svg/doomWithShadow.svg"/><p/>
-+ [[https://github.com/tachanka61/graphics/blob/main/png/doom/doom256.png][256x256.png]]
-+ [[https://github.com/tachanka61/graphics/blob/main/png/doom/doomWithShadow256.png][256x256.png (with shadow)]]
-+ [[https://github.com/tachanka61/graphics/blob/main/png/doom/doom1024.png][1024x1024.png]]
-+ [[https://github.com/tachanka61/graphics/blob/main/png/doom/doomWithShadow1024.png][1024x1024.png (with shadow)]]
-** Reference
-|-------------+----------|
-| Colorscheme | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]]     |
-| Font        | [[https://www.fontspace.com/amaz-doom-font-f9098][AmazDoom]] |
-|-------------+----------|
-* 👴 Emacs
-#+caption: Emacs
-#+html: <p align="center"><img src="svg/emacs.svg"/><p/>
+
+#+html: <p align="center"> <img src="svg/doomWithShadow.svg"/><p/>
+
+[[https://github.com/tachanka61/graphics/blob/main/png/doom/][Folder with raster images]]
+
+#+begin_quote
+[[https://www.fontspace.com/amaz-doom-font-f9098][AmazDoom]] font was used
+#+end_quote
+
+* GNU Emacs
+
+#+html: <p align="center"> <img src="svg/emacs.svg"> <p/>
+
 ** Description
 Emacs logo, inspired and based on Papirus icon theme.
 Like Doom, also can be used as a dashboard image.
+
 ** Variations
 This work has no variations, but it has some raster images:
-+ [[https://github.com/tachanka61/graphics/blob/main/png/emacs/emacs256.png][emacs256.png]]
-+ [[https://github.com/tachanka61/graphics/blob/main/png/emacs/emacs1024.png][emacs1024.png]]
-** Reference
-|-----------------------+---------|
-| Colorscheme           | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]]    |
-| Inspired and based on | [[https://icon-icons.com/icon/emacs/93840][Papirus]] |
-|-----------------------+---------|
-* 🚪 Arch logo collection
-#+caption: Arch logos
-#+html: <p align="center"><img src="svg/arches.svg"/><p/>
+
+[[https://github.com/tachanka61/graphics/blob/main/png/emacs/][Folder with raster images]]
+
+#+begin_quote
+Inspired and based on [[https://icon-icons.com/icon/emacs/93840][Papirus]]
+#+end_quote
+
+* Arch logo collection
+
+#+html: <p align="center"> <img src="svg/arches.svg"/> <p/>
+
 ** Description
 Arch logos made from scratch. See license and [[https://wiki.archlinux.org/title/DeveloperWiki:TrademarkPolicy][trademark policy of Arch Linux]].
+
 ** Variations
 + [[https://github.com/tachanka61/graphics/blob/main/png/archLogos/arch.png][arch.png]]
-** Reference
-|-------------+------|
-| Colorscheme | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]] |
-| Arch        | [[https://archlinux.org/][Arch]] |
-|-------------+------|
-* 🌊 Deniz Mall
-#+caption: Deniz Mall
-#+html: <p align="center"><img src="svg/denizMall.svg"/><p/>
-** Description
-Just vectorized image of Deniz Mall.
-** Variations
-Different variations are included in svg file, but there is also raster image:
-+ [[https://github.com/tachanka61/graphics/blob/main/png/denizMall/denizMall.png][denizMall.png]]
-** Reference
-|-------------+------|
-| Colorscheme | [[https://www.nordtheme.com/docs/colors-and-palettes][Nord]] |
-| Deniz Mall  | [[https://www.denizmall.az/en/][Site]] |
-|-------------+------|
+
+#+begin_quote
+[[https://archlinux.org/][Arch Linux site]]
+#+end_quote
