@@ -59,10 +59,16 @@ There are also some variations (both vector and raster):
 #+html: <p align="center"> <img src="svg/doomWithShadow.svg"/><p/>
 
 + doomEmacs.svg
+
 #+html: <p align="center"> <img src="svg/doomEmacs.svg"> </p>
 
 + doomEmacsDoomOne.svg
+
 #+html: <p align="center"> <img src="svg/doomEmacsDoomOne.svg"> </p>
+
++ doomEmacsDracula.svg
+
+#+html: <p align="center"> <img src="svg/doomEmacsDracula.svg"> </p>
 
 [[https://github.com/tachanka61/graphics/blob/main/png/doom/][Folder with raster images]]
 
