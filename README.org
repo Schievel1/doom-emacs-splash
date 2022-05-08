@@ -1,4 +1,4 @@
-#+AUTHOR: Tachanka
+#+author: tachanka
 
 * Table Of Contents :toc:
 - [[#license][License]]
@@ -73,6 +73,10 @@ There are also some variations (both vector and raster):
 + doomEmacsGruvbox.svg
 
 #+html: <p align="center"> <img src="svg/doomEmacsGruvbox.svg"> </p>
+
++ doomEmacsSolarized.svg
+
+#+html: <p align="center"> <img src="svg/doomEmacsSolarized.svg"> </p>
 
 [[https://github.com/tachanka61/graphics/blob/main/png/doom/][Folder with raster images]]
 
