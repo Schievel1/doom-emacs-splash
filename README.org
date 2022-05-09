@@ -78,6 +78,10 @@ There are also some variations (both vector and raster):
 
 #+html: <p align="center"> <img src="svg/doomEmacsSolarized.svg"> </p>
 
++ doomEmacsRouge.svg
+
+#+html: <p align="center"> <img src="svg/doomEmacsRouge.svg"> </p>
+
 [[https://github.com/tachanka61/graphics/blob/main/png/doom/][Folder with raster images]]
 
 #+begin_quote
