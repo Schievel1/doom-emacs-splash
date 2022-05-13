@@ -8,6 +8,7 @@
 - [[#gnu-emacs][GNU Emacs]]
   - [[#description-1][Description]]
   - [[#variations-1][Variations]]
+   - [[#make-your-own][Make your own]]
 - [[#arch-logo-collection][Arch logo collection]]
   - [[#description-2][Description]]
   - [[#variations-2][Variations]]
@@ -87,6 +88,20 @@ There are also some variations (both vector and raster):
 #+begin_quote
 [[https://www.fontspace.com/amaz-doom-font-f9098][AmazDoom]] font was used
 #+end_quote
+
+** Make your own
+To change to colors of the svg, download the doomEmacs.svg file, get the hexadecimal codes of the colors you want to have and run the following commands to change the colors:
+
+#+begin_src sh
+sed -i 's/5e81ac/xxxxxx/g' doomEmacs.svg # top gradient color of the text
+sed -i 's/b48ead/xxxxxx/g' doomEmacs.svg # bottom gradient color of the text
+sed -i 's/4c566a/xxxxxx/g' doomEmacs.svg # the upper outlines of the 'DOOM' text
+sed -i 's/3b4252/xxxxxx/g' doomEmacs.svg # the shadow
+sed -i 's/2e3440/xxxxxx/g' doomEmacs.svg # the background
+sed -i 's/434c5e/xxxxxx/g' doomEmacs.svg # dot in the middle that the background gradients to
+#+end_src
+
+Where xxxxxx is the color you chose.
 
 * GNU Emacs
 
