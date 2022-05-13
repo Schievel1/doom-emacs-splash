@@ -42,7 +42,7 @@ _Under the following terms:_
 
 * Doom
 
-#+html: <p align="center"> <img src="svg/doom.svg"/><p/>
+#+html: <p align="center"> <img src="svg/doom/doom.svg"/><p/>
 
 ** Description
 Doom logo using Nord colorscheme and AmazDoom font.
@@ -106,6 +106,8 @@ sed -i 's/434c5e/xxxxxx/g' doomEmacs.svg # dot in the middle that the background
 #+end_src
 
 Where xxxxxx is the color you chose.
+
+Or just use [[https://github.com/tachanka61/graphics/blob/main/script/recolor.sh][really weird bash script]] :P
 
 * GNU Emacs
 
