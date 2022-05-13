@@ -5,10 +5,10 @@
 - [[#doom][Doom]]
   - [[#description][Description]]
   - [[#variations][Variations]]
+  - [[#make-your-own][Make your own]]
 - [[#gnu-emacs][GNU Emacs]]
   - [[#description-1][Description]]
   - [[#variations-1][Variations]]
-   - [[#make-your-own][Make your own]]
 - [[#arch-logo-collection][Arch logo collection]]
   - [[#description-2][Description]]
   - [[#variations-2][Variations]]
@@ -57,31 +57,35 @@ There are also some variations (both vector and raster):
 
 + doomWithShadow.svg
 
-#+html: <p align="center"> <img src="svg/doomWithShadow.svg"/><p/>
+#+html: <p align="center"> <img src="svg/doom/doomWithShadow.svg"/><p/>
 
 + doomEmacs.svg
 
-#+html: <p align="center"> <img src="svg/doomEmacs.svg"> </p>
+#+html: <p align="center"> <img src="svg/doom/doomEmacs.svg"> </p>
 
 + doomEmacsDoomOne.svg
 
-#+html: <p align="center"> <img src="svg/doomEmacsDoomOne.svg"> </p>
+#+html: <p align="center"> <img src="svg/doom/doomEmacsDoomOne.svg"> </p>
 
 + doomEmacsDracula.svg
 
-#+html: <p align="center"> <img src="svg/doomEmacsDracula.svg"> </p>
+#+html: <p align="center"> <img src="svg/doom/doomEmacsDracula.svg"> </p>
 
 + doomEmacsGruvbox.svg
 
-#+html: <p align="center"> <img src="svg/doomEmacsGruvbox.svg"> </p>
+#+html: <p align="center"> <img src="svg/doom/doomEmacsGruvbox.svg"> </p>
 
 + doomEmacsSolarized.svg
 
-#+html: <p align="center"> <img src="svg/doomEmacsSolarized.svg"> </p>
+#+html: <p align="center"> <img src="svg/doom/doomEmacsSolarized.svg"> </p>
 
 + doomEmacsRouge.svg
 
-#+html: <p align="center"> <img src="svg/doomEmacsRouge.svg"> </p>
+#+html: <p align="center"> <img src="svg/doom/doomEmacsRouge.svg"> </p>
+
++ doomEmacsTokyoNight.svg by [[https://github.com/Schievel1][Schievel1]]
+
+#+html: <p align="center"> <img src="svg/doom/doomEmacsTokyoNight.svg"> </p>
 
 [[https://github.com/tachanka61/graphics/blob/main/png/doom/][Folder with raster images]]
 
@@ -90,7 +94,7 @@ There are also some variations (both vector and raster):
 #+end_quote
 
 ** Make your own
-To change to colors of the svg, download the doomEmacs.svg file, get the hexadecimal codes of the colors you want to have and run the following commands to change the colors:
+To change to colors of the svg, download the =doomEmacs.svg= file, get the hexadecimal codes of the colors you want to have and run the following commands to change the colors:
 
 #+begin_src sh
 sed -i 's/5e81ac/xxxxxx/g' doomEmacs.svg # top gradient color of the text
