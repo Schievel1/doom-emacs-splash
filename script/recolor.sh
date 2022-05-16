@@ -1,11 +1,12 @@
 #! /usr/bin/env bash
 #
-# ████████╗ |                 GRAPHICS
-# ╚══██╔══╝ |         tachanka61 and Schievel1
-#    ██║    |
-#    ██║    | https://github.com/tachanka61/graphics
-#    ██║    | Dependencies: sed, doomEmacs.svg
-#    ╚═╝    | Optional: feh
+# ████████╗ |                 GRAPHICS               |  ______     _____
+# ╚══██╔══╝ |         tachanka61 and Schievel1       | |_   __ \  |_   _|
+#    ██║    |                                        |   | |__) |   | |
+#    ██║    | https://github.com/tachanka61/graphics |   |  ___/ _  | |
+#    ██║    | Dependencies: sed, doomEmacs.svg       |  _| |_   | |_| |
+#    ╚═╝    | Optional: feh                          | |_____|  \.___.'
+#           |                                        |
 
 # This makes program more secure
 # Also you can enable 'x' flag to enable debug
@@ -28,22 +29,35 @@ fi
 
 # Recolor
 # get the colors from the user
-read -p "input the top gradient color of the text. Hex format, e.g. 434c5e: " topgradient
-read -p "input the bottom gradient color of the text: " bottomgradient
-read -p "input the upper outlines color of the doom text: " doomoutlines
-read -p "input the color of the shadows: " shadow
-read -p "input the background color: " background
-read -p "input the color of the dot in the middle that the background gradients to: " middledot
+colors=(topgradient bottomgradient doomoutlines shadow background middledot)
+colormsg=("Input the top gradient color of the text. In Hex format, e.g. 434c5e or f13: " \
+  "Input the bottom gradient color of the text: " \
+  "Input the upper outlines color of the doom text: " \
+  "Input the color of the shadows: " \
+  "Input the background color: " \
+  "Input the color of the dot in the middle that the background gradients to: ")
+for i in {0..5}
+do
+  while ! [[ ${colors[i]} =~ ^([[:xdigit:]]{3}){1,2}$ ]]
+  do read -p "${colormsg[i]}" color
+     colors[i]=$color
+     if ! [[ ${colors[i]} =~ ^([[:xdigit:]]{3}){1,2}$ ]]; then
+      echo -e "${RED}[!] Invalid color!${RESET}"
+      echo -e "${CYAN}[?] Colors must be in HEX format: 434C5E, f13${RESET}"
+      echo -e "${CYAN}[-] Try again. Abort with CTRL+C.${RESET}"
+     fi
+  done
+done
 
 cp "template.svg" "${1}.svg" # Copy output file
 outputfile=${1}".svg"
 
-sed -i "s/fffff9/${topgradient}/g" $outputfile # Top gradient color of the text
-sed -i "s/fffffa/${bottomgradient}/g" $outputfile # Bottom gradient color of the text
-sed -i "s/fffffb/${doomoutlines}/g" $outputfile # The upper outlines of the 'DOOM' text
-sed -i "s/fffffc/${shadow}/g" $outputfile # The shadow
-sed -i "s/fffffd/${background}/g" $outputfile # The background
-sed -i "s/fffffe/${middledot}/g" $outputfile # Dot in the middle that the background gradients to
+sed -i "s/fffff9/${colors[0]}/g" $outputfile # Top gradient color of the text
+sed -i "s/fffffa/${colors[1]}/g" $outputfile # Bottom gradient color of the text
+sed -i "s/fffffb/${colors[2]}/g" $outputfile # The upper outlines of the 'DOOM' text
+sed -i "s/fffffc/${colors[3]}/g" $outputfile # The shadow
+sed -i "s/fffffd/${colors[4]}/g" $outputfile # The background
+sed -i "s/fffffe/${colors[5]}/g" $outputfile # Dot in the middle that the background gradients to
 
 echo -e "${GREEN}[+] Success!${RESET}"
 
