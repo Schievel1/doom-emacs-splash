@@ -64,5 +64,5 @@ echo -e "${GREEN}[+] Success!${RESET}"
 # If feh command exists, show image
 if [[ $(command -v feh) ]]; then
   echo -e "${CYAN}[?] feh is installed on the system, opening image...${RESET}"
-  feh "$1"
+  feh $outputfile
 fi
