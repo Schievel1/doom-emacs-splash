@@ -130,7 +130,9 @@ Save the script 'recolor.sh' and the file 'template.svg' together into one direc
 #+end_src
 
 The script will ask you for several colors to give as an input. Input the colors as hexadecimal color code without a preceding #. E.g. 434c5e.
-The script will then spit out a file with the given colors into the directory it is run in.
+It will then spit out a file with the given colors into the directory it is run in.
+
+Make sure to make a pull request to this repo if you created some awesome images for a colorscheme that isn't added yet. ;-)
 
 * GNU Emacs
 
