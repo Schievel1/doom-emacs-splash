@@ -125,16 +125,15 @@ Where xxxxxx is the color you chose.
 
 Or just use [[https://github.com/tachanka61/graphics/blob/main/script/recolor.sh][really weird bash script]] :P
 Script usage:
-Save the script 'recolor.sh' and the file 'template.svg' together into one directory, run recolor.sh:
+Save the script =recolor.sh= and the file =template.svg= together into one directory, run =recolor.sh=:
 
 #+begin_src sh
 ./recolor.sh nameoftheoutputfile # without a file extension like .svg
 #+end_src
 
-The script will ask you for several colors to give as an input. Input the colors as hexadecimal color code without a preceding #. E.g. 434c5e.
-It will then spit out a file with the given colors into the directory it is run in.
+The script will ask you for several colors to give as an input. Input the colors as hexadecimal color code without a preceding:  =434c5e=. It will then spit out a file with the given colors into the directory it is run in.
 
-Make sure to make a pull request to this repo if you created some awesome images for a colorscheme that isn't added yet. ;-)
+Make sure to make a pull request to this repo if you created some awesome images for a colorscheme that isn't added yet.  =;-)=
 
 * GNU Emacs
 
