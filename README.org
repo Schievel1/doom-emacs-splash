@@ -23,7 +23,7 @@
 
 This work is licensed under [[https://creativecommons.org/licenses/by-sa/4.0/][Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)]].
 
-#+BEGIN_QUOTE
+#+begin_quote
 _You are free to:_
 
     *Share* — copy and redistribute the material in any medium or format.
@@ -38,7 +38,7 @@ _Under the following terms:_
     *ShareAlike* — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
     *No additional restrictions* — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-#+END_QUOTE
+#+end_quote
 
 * Doom
 
@@ -48,14 +48,15 @@ _Under the following terms:_
 Doom logo using Nord colorscheme and AmazDoom font.
 Can be used as image as a dashboard image in Doom Emacs (and other Emacs distributions using doom-dashboard) using this code:
 
-#+BEGIN_SRC elisp
+#+begin_src elisp
 ;; in .doom.d/config.el
 (setq fancy-splash-image "/path/to/image/doom.svg")
-#+END_SRC
+#+end_src
 
-If you would like to have several logos and a logo to display is chosen by emacs randomly, put the logos in ~/.doom.d/splash.
+If you would like to have several logos and a logo to display is chosen by emacs randomly, put the logos in =~/.doom.d/splash=.
 Then use this code:
-#+BEGIN_SRC elisp
+
+#+begin_src elisp
 ;; in .doom.d/config.el
 (let ((alternatives '("nameoffirstfile.svg"
                       "nameofanotherfile.png"
@@ -63,7 +64,7 @@ Then use this code:
   (setq fancy-splash-image
         (concat doom-private-dir "splash/"
                 (nth (random (length alternatives)) alternatives))))
-#+END_SRC
+#+end_src
 
 You can add or remove the images that can be chosen randomly into alternatives.
 
@@ -125,6 +126,7 @@ Where xxxxxx is the color you chose.
 Or just use [[https://github.com/tachanka61/graphics/blob/main/script/recolor.sh][really weird bash script]] :P
 Script usage:
 Save the script 'recolor.sh' and the file 'template.svg' together into one directory, run recolor.sh:
+
 #+begin_src sh
 ./recolor.sh nameoftheoutputfile # without a file extension like .svg
 #+end_src
