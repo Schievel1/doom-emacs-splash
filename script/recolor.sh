@@ -8,6 +8,9 @@
 #    ╚═╝    | Optional: feh                          | |_____|  \.___.'
 #           |                                        |
 
+# Shellcheck stuff:
+# shellcheck disable=SC2162
+
 # This makes program more secure
 # Also you can enable 'x' flag to enable debug
 set -euo pipefail
@@ -23,14 +26,13 @@ if [[ $# -ne 1 ]]; then
   echo -e "${RED}[!] $# arguments passed, 1 required${RESET}" >&2
   # Print usage
   echo -e "${CYAN}[?] usage: ./recolor.sh [output filename]${RESET}"
-  echo -e "${CYAN}[?] Colors must be in HEX format: 434C5E, f13${RESET}"
   exit 2
 fi
 
 # Recolor
 # get the colors from the user
 colors=(topgradient bottomgradient doomoutlines shadow background middledot)
-colormsg=("Input the top gradient color of the text. It should be in HEX format, e.g. 434C5E or f13: " \
+color_msg=("Input the top gradient color of the text. It should be in HEX format, e.g. 434C5E or f13: " \
   "Input the bottom gradient color of the text: " \
   "Input the upper outlines color of the Doom text: " \
   "Input the color of the shadows: " \
@@ -38,9 +40,8 @@ colormsg=("Input the top gradient color of the text. It should be in HEX format,
   "Input the color of the dot in the middle that the background gradients to: ")
 for i in {0..5}
 do
-  # shellcheck disable=SC2162
   while ! [[ ${colors[i]} =~ ^([[:xdigit:]]{3}){1,2}$ ]]
-  do read -p "${CYAN}[>] ${colormsg[i]}${RESET}" color
+  do read -p "${CYAN}[>] ${color_msg[i]}${RESET}" color
      colors[i]=$color
      if ! [[ ${colors[i]} =~ ^([[:xdigit:]]{3}){1,2}$ ]]; then
       echo -e "${RED}[!] Invalid color!${RESET}"
@@ -51,19 +52,32 @@ do
 done
 
 cp "template.svg" "${1}.svg" # Copy output file
-outputfile=${1}".svg"
+output_file=${1}".svg"
 
-sed -i "s/fffff9/${colors[0]}/g" "$outputfile" # Top gradient color of the text
-sed -i "s/fffffa/${colors[1]}/g" "$outputfile" # Bottom gradient color of the text
-sed -i "s/fffffb/${colors[2]}/g" "$outputfile" # The upper outlines of the 'DOOM' text
-sed -i "s/fffffc/${colors[3]}/g" "$outputfile" # The shadow
-sed -i "s/fffffd/${colors[4]}/g" "$outputfile" # The background
-sed -i "s/fffffe/${colors[5]}/g" "$outputfile" # Dot in the middle that the background gradients to
+sed -i "s/fffff9/${colors[0]}/g" "$output_file" # Top gradient color of the text
+sed -i "s/fffffa/${colors[1]}/g" "$output_file" # Bottom gradient color of the text
+sed -i "s/fffffb/${colors[2]}/g" "$output_file" # The upper outlines of the 'DOOM' text
+sed -i "s/fffffc/${colors[3]}/g" "$output_file" # The shadow
+sed -i "s/fffffd/${colors[4]}/g" "$output_file" # The background
+sed -i "s/fffffe/${colors[5]}/g" "$output_file" # Dot in the middle that the background gradients to
 
 echo -e "${GREEN}[+] Success!${RESET}"
 
-# If feh command exists, show image
-if [[ $(command -v feh) ]]; then
-  echo -e "${CYAN}[?] feh is installed on the system, opening image...${RESET}"
-  feh "$outputfile"
+# Ask user for image preview
+if [[ $(command -v emacs) ]]; then
+  read -r -n 1 -p "${CYAN}[>] Do you want to preview your image in Emacs? ${RESET}" input
+
+  case "$input" in
+    [yY])
+      echo ""
+      echo -e "${CYAN} Opening Emacs...${RESET}"
+      emacs "$output_file"
+    ;;
+    [nN])
+      exit 0
+    ;;
+    *)
+      echo -e "${RED}[!] Incorrect input!${RESET}"
+    ;;
+  esac
 fi
