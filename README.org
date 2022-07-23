@@ -140,6 +140,7 @@ Make sure to make a pull request to this repo if you created some awesome images
 Emacs can automatically generate generate the Doom Emacs logo for you. When ever you swich the color scheme, a new set of images is created and used.
 To do this, put the file ~doom-emacs-splash-template.svg~ (in the folder ~svg~ on this GitHub) into a subfolder ~splash~ in your Doom config directory (so usually ~~/.doom.d/splash/~).
 The elisp code below is shamelessly stolen from [[https://github.com/tecosaur/emacs-config][Tecosaur]] and slightly modified.
+
 #+begin_src elisp
 (defvar fancy-splash-image-template
   (expand-file-name "splash/doom-emacs-splash-template.svg" doom-private-dir)
@@ -239,7 +240,8 @@ The elisp code below is shamelessly stolen from [[https://github.com/tecosaur/em
 
 #+end_src
 
-Look in your theme what the different colors are called. If you want to use a different color, but still want to keep the automatic generation, you can change the line
+Look in your theme what the different colors are called. If you want to use a different color, but still want to keep the automatic generation, you can change the line:
+
 #+begin_src elisp
   '(("$color1" . functions) ("$color2" . keywords) ("$color3" .  highlight) ("$color4" . bg) ("$color5" . bg) ("$color6" . base0))
 #+end_src
