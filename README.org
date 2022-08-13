@@ -9,10 +9,6 @@
   - [[#automatically-generate-in-emacs][Automatically generate in Emacs]]
 - [[#gnu-emacs][GNU Emacs]]
   - [[#description-1][Description]]
-  - [[#variations-1][Variations]]
-- [[#arch-logo-collection][Arch logo collection]]
-  - [[#description-2][Description]]
-  - [[#variations-2][Variations]]
 
 * License
 
@@ -46,11 +42,11 @@ _Under the following terms:_
 #+html: <p align="center"> <img src="svg/doom/doom.svg"/><p/>
 
 ** Description
-Doom logo using Nord colorscheme and AmazDoom font.
-Can be used as image as a dashboard image in Doom Emacs (and other Emacs distributions using doom-dashboard) using this code:
+Doom logo using Nord colorscheme and [[https://www.fontspace.com/amaz-doom-font-f9098][AmazDoom]] font.
+Can be used as image as a dashboard image in Doom Emacs (and other Emacs distributions using =doom-dashboard=) using this code:
 
 #+begin_src elisp
-;; in .doom.d/config.el
+;; .doom.d/config.el
 (setq fancy-splash-image "/path/to/image/doom.svg")
 #+end_src
 
@@ -58,7 +54,7 @@ If you would like to have several logos and a logo to display is chosen by emacs
 Then use this code:
 
 #+begin_src elisp
-;; in .doom.d/config.el
+;; .doom.d/config.el
 (let ((alternatives '("nameoffirstfile.svg"
                       "nameofanotherfile.png"
                       "nameofathirdfile.svg")))
@@ -104,8 +100,6 @@ There are also some variations (both vector and raster):
 
 #+html: <p align="center"> <img src="svg/doom/doomEmacsTokyoNight.svg"> </p>
 
-[[https://github.com/tachanka61/graphics/blob/main/png/doom/][Folder with raster images]]
-
 #+begin_quote
 [[https://www.fontspace.com/amaz-doom-font-f9098][AmazDoom]] font was used
 #+end_quote
@@ -125,7 +119,7 @@ sed -i 's/434c5e/xxxxxx/g' doomEmacs.svg # dot in the middle that the background
 Where xxxxxx is the color you chose.
 
 Or just use [[https://github.com/tachanka61/graphics/blob/main/script/recolor.sh][really weird bash script]] :P
-Script usage:
+
 Save the script =recolor.sh= and the file =template.svg= together into one directory, run =recolor.sh=:
 
 #+begin_src sh
@@ -137,8 +131,10 @@ The script will ask you for several colors to give as an input. Input the colors
 Make sure to make a pull request to this repo if you created some awesome images for a colorscheme that isn't added yet.  =;-)=
 
 ** Automatically generate in Emacs
-Emacs can automatically generate generate the Doom Emacs logo for you. When ever you swich the color scheme, a new set of images is created and used.
+Emacs can automatically generate generate the Doom Emacs logo for you. When ever you switch the color scheme, a new set of images is created and used.
+
 To do this, put the file ~doom-emacs-splash-template.svg~ (in the folder ~svg~ on this GitHub) into a subfolder ~splash~ in your Doom config directory (so usually ~~/.doom.d/splash/~).
+
 The elisp code below is shamelessly stolen from [[https://github.com/tecosaur/emacs-config][Tecosaur]] and slightly modified.
 
 #+begin_src elisp
@@ -246,7 +242,7 @@ Look in your theme what the different colors are called. If you want to use a di
   '(("$color1" . functions) ("$color2" . keywords) ("$color3" .  highlight) ("$color4" . bg) ("$color5" . bg) ("$color6" . base0))
 #+end_src
 
-This snippet above automatically generates a set of images and puts them into your Emacs' temp folder. So it does not always generate new images every time you start up Emacs. If you changed some of the colors and want to generate new images, use ~M-x fancy-splash-clear-cache~.
+This snippet above automatically generates a set of images and puts them into your Emacs' temp folder. So it does not always generate new images every time you start up Emacs. If you changed some of the colors and want to generate new images, use @@html:<kbd>@@M-x@@html:</kbd>@@ ~fancy-splash-clear-cache~.
 
 * GNU Emacs
 
@@ -256,25 +252,6 @@ This snippet above automatically generates a set of images and puts them into yo
 Emacs logo, inspired and based on Papirus icon theme.
 Like Doom, also can be used as a dashboard image.
 
-** Variations
-This work has no variations, but it has some raster images:
-
-[[https://github.com/tachanka61/graphics/blob/main/png/emacs/][Folder with raster images]]
-
 #+begin_quote
 Inspired and based on [[https://icon-icons.com/icon/emacs/93840][Papirus]]
-#+end_quote
-
-* Arch logo collection
-
-#+html: <p align="center"> <img src="svg/arches.svg"/> <p/>
-
-** Description
-Arch logos made from scratch. See license and [[https://wiki.archlinux.org/title/DeveloperWiki:TrademarkPolicy][trademark policy of Arch Linux]].
-
-** Variations
-+ [[https://github.com/tachanka61/graphics/blob/main/png/archLogos/arch.png][arch.png]]
-
-#+begin_quote
-[[https://archlinux.org/][Arch Linux site]]
 #+end_quote
