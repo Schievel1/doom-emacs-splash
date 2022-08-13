@@ -12,6 +12,8 @@
 
 * License
 
+#+html: <p align="center"> <img src="screenshots/doomEmacsNord.png"> </p>
+
 #+html: <p align="center">
 #+html:     <a href="https://creativecommons.org/licenses/by-sa/4.0/">
 #+html:         <img src="https://img.shields.io/badge/CC--BY--SA-161b22?style=for-the-badge&logo=Creative%20Commons&logoColor=white">
