@@ -2,56 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   sodipodi:docname="doom.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    id="svg5"
    version="1.1"
    viewBox="0 0 135.46666 135.46667"
    height="512"
    width="512"
-   inkscape:export-filename="/home/halcyon/Pictures/graphics/png/doom/doom1024.png"
-   inkscape:export-xdpi="192"
-   inkscape:export-ydpi="192"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <title
-     id="title859">Doom Logo</title>
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="false"
-     inkscape:document-units="px"
-     showgrid="false"
-     units="px"
-     showborder="true"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true"
-     inkscape:object-paths="true"
-     inkscape:zoom="1"
-     inkscape:cx="245"
-     inkscape:cy="254"
-     inkscape:window-width="1358"
-     inkscape:window-height="742"
-     inkscape:window-x="4"
-     inkscape:window-y="22"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     inkscape:snap-global="false" />
+   xmlns:cc="http://creativecommons.org/ns#">
   <defs
      id="defs2">
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient22824">
       <stop
          style="stop-color:#4c566a;stop-opacity:1"
@@ -63,7 +26,6 @@
          id="stop22822" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient19586">
       <stop
          style="stop-color:#bf616a;stop-opacity:1;"
@@ -75,7 +37,6 @@
          id="stop19584" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient18116">
       <stop
          style="stop-color:#973a42;stop-opacity:0.25678003"
@@ -87,7 +48,6 @@
          id="stop18114" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient18116"
        id="linearGradient18948"
        gradientUnits="userSpaceOnUse"
@@ -96,7 +56,6 @@
        x2="50.365398"
        y2="74.842987" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient19586"
        id="linearGradient19588"
        x1="46.722206"
@@ -105,7 +64,6 @@
        y2="72.55864"
        gradientUnits="userSpaceOnUse" />
     <filter
-       inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter20552"
        x="-0.0099511497"
@@ -113,12 +71,10 @@
        width="1.0199023"
        height="1.0349122">
       <feGaussianBlur
-         inkscape:collect="always"
          stdDeviation="0.14666122"
          id="feGaussianBlur20554" />
     </filter>
     <filter
-       inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter20556"
        x="-0.009914804"
@@ -126,12 +82,10 @@
        width="1.0198296"
        height="1.0334488">
       <feGaussianBlur
-         inkscape:collect="always"
          stdDeviation="0.14666122"
          id="feGaussianBlur20558" />
     </filter>
     <filter
-       inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter20560"
        x="-0.0099148042"
@@ -139,12 +93,10 @@
        width="1.0198296"
        height="1.0303922">
       <feGaussianBlur
-         inkscape:collect="always"
          stdDeviation="0.14666122"
          id="feGaussianBlur20562" />
     </filter>
     <radialGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient22824"
        id="radialGradient22372"
        cx="35.537251"
@@ -156,40 +108,26 @@
        gradientTransform="matrix(1.2898941,0,0,1.2898941,-10.302039,-19.166477)" />
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0.68624115,-29.891956)">
     <g
        id="g5368"
-       transform="matrix(1.8698731,0,0,1.8698731,0.59694272,-26.002209)"
-       inkscape:export-filename="/home/halcyon/Pictures/graphics/png/doom/doom256.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48">
+       transform="matrix(1.8698731,0,0,1.8698731,0.59694272,-26.002209)">
       <circle
          style="fill:#2e3440;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.430514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="path20298"
          cx="35.537251"
          cy="66.115448"
-         r="36.223492"
-         inkscape:export-filename="/home/halcyon/Pictures/inkscape/png/doom.png"
-         inkscape:export-xdpi="359.01566"
-         inkscape:export-ydpi="359.01566" />
+         r="36.223492" />
       <circle
          style="fill:url(#radialGradient22372);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.397748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          id="circle21025"
          cx="35.537251"
          cy="66.115448"
-         r="33.466606"
-         inkscape:export-filename="/home/halcyon/Pictures/inkscape/png/doom.png"
-         inkscape:export-xdpi="359.01566"
-         inkscape:export-ydpi="359.01566" />
+         r="33.466606" />
       <g
          id="g21023"
-         transform="matrix(1.40435,0,0,1.40435,-14.369488,-26.733786)"
-         inkscape:export-filename="/home/halcyon/Pictures/inkscape/png/doom.png"
-         inkscape:export-xdpi="359.01566"
-         inkscape:export-ydpi="359.01566">
+         transform="matrix(1.40435,0,0,1.40435,-14.369488,-26.733786)">
         <path
            id="path20528"
            style="mix-blend-mode:normal;fill:#2e3440;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke;filter:url(#filter20560)"
@@ -224,20 +162,6 @@
          rdf:about="">
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-        <dc:title>Doom Logo</dc:title>
-        <dc:date>03.02.22</dc:date>
-        <dc:rights>
-          <cc:Agent>
-            <dc:title>Creative Commons Attribution 4.0 International License</dc:title>
-          </cc:Agent>
-        </dc:rights>
-        <dc:source>https://github.com/tachanka61/graphics</dc:source>
-        <dc:description>Doom logo using nord colorscheme and AmazDoom font</dc:description>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Tachanka</dc:title>
-          </cc:Agent>
-        </dc:creator>
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">

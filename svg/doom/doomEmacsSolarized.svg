@@ -2,55 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   sodipodi:docname="doomEmacsSolarized.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    id="svg5"
    version="1.1"
    viewBox="0 0 135.46666 135.46667"
    height="512"
    width="512"
-   inkscape:export-filename="/home/halcyon/Pictures/graphics/png/doom/doom1024.png"
-   inkscape:export-xdpi="192"
-   inkscape:export-ydpi="192"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="false"
-     inkscape:document-units="px"
-     showgrid="false"
-     units="px"
-     showborder="true"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true"
-     inkscape:object-paths="true"
-     inkscape:zoom="0.25"
-     inkscape:cx="742"
-     inkscape:cy="224"
-     inkscape:window-width="1366"
-     inkscape:window-height="768"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     inkscape:snap-global="true"
-     inkscape:snap-midpoints="true" />
+   xmlns:cc="http://creativecommons.org/ns#">
   <defs
      id="defs2">
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient68779">
       <stop
          style="stop-color:#268bd2;stop-opacity:1"
@@ -62,7 +26,6 @@
          id="stop68777" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient68773">
       <stop
          style="stop-color:#268bd2;stop-opacity:1"
@@ -74,7 +37,6 @@
          id="stop68771" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient68767">
       <stop
          style="stop-color:#268bd2;stop-opacity:1"
@@ -86,7 +48,6 @@
          id="stop68765" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient68761">
       <stop
          style="stop-color:#268bd2;stop-opacity:1"
@@ -98,7 +59,6 @@
          id="stop68759" />
     </linearGradient>
     <filter
-       inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter44958"
        x="-0.4494528"
@@ -106,12 +66,10 @@
        width="1.8989056"
        height="1.8989056">
       <feGaussianBlur
-         inkscape:collect="always"
          stdDeviation="2.3579995"
          id="feGaussianBlur44960" />
     </filter>
     <filter
-       inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter12032"
        x="-0.027"
@@ -119,12 +77,10 @@
        width="1.054"
        height="1.054">
       <feGaussianBlur
-         inkscape:collect="always"
          stdDeviation="0.6698472"
          id="feGaussianBlur12034" />
     </filter>
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient68761"
        id="linearGradient157515"
        gradientUnits="userSpaceOnUse"
@@ -134,7 +90,6 @@
        x2="-9.5672102"
        y2="-215.15648" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient68767"
        id="linearGradient157517"
        gradientUnits="userSpaceOnUse"
@@ -144,7 +99,6 @@
        x2="-9.5672102"
        y2="-215.15648" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient68773"
        id="linearGradient157519"
        gradientUnits="userSpaceOnUse"
@@ -154,7 +108,6 @@
        x2="-9.5672102"
        y2="-215.15648" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient68779"
        id="linearGradient157521"
        gradientUnits="userSpaceOnUse"
@@ -165,8 +118,6 @@
        y2="-215.15648" />
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-341.57712,78.991884)">
     <g
@@ -293,18 +244,15 @@
             <path
                id="path157499"
                style="font-size:10.5833px;line-height:1.25;font-family:AmazDooMLeft;-inkscape-font-specification:AmazDooMLeft;opacity:0.3;fill:#3f444a;fill-opacity:1;stroke-width:0.735318"
-               d="m 298.65625,-195.97975 0.58806,0.73531 v 0.23126 h 7.21853 l 1.51686,0.91465 v -0.6749 l -2.00013,-1.20632 z m 0.58806,1.09777 v 21.19743 l -0.2355,0.5588 0.71878,-0.57485 v -20.57728 z"
-               sodipodi:nodetypes="cccccccccccccc" />
+               d="m 298.65625,-195.97975 0.58806,0.73531 v 0.23126 h 7.21853 l 1.51686,0.91465 v -0.6749 l -2.00013,-1.20632 z m 0.58806,1.09777 v 21.19743 l -0.2355,0.5588 0.71878,-0.57485 v -20.57728 z" />
             <path
                id="path157501"
                style="font-size:10.5833px;line-height:1.25;font-family:AmazDooMLeft;-inkscape-font-specification:AmazDooMLeft;opacity:0.3;fill:#3f444a;fill-opacity:1;stroke-width:0.735318"
-               d="m 310.19128,-195.97975 -1.26484,1.41209 v 13.64755 l 0.48328,0.38606 v -13.06704 l 1.26484,-1.41209 h 6.35297 l 0.84008,0.84055 v -0.48328 l -1.32337,-1.32384 z"
-               sodipodi:nodetypes="ccccccccccc" />
+               d="m 310.19128,-195.97975 -1.26484,1.41209 v 13.64755 l 0.48328,0.38606 v -13.06704 l 1.26484,-1.41209 h 6.35297 l 0.84008,0.84055 v -0.48328 l -1.32337,-1.32384 z" />
             <path
                id="path157503"
                style="font-size:10.5833px;line-height:1.25;font-family:AmazDooMLeft;-inkscape-font-specification:AmazDooMLeft;opacity:0.3;fill:#3f444a;fill-opacity:1;stroke-width:0.735318"
-               d="m 320.13818,-195.97975 -1.32383,1.32384 v 13.44177 l 0.48328,0.35444 v -12.82965 l 1.32383,-1.32383 h 6.35297 l 0.78156,0.87264 v -0.42712 l -1.26484,-1.41209 z"
-               sodipodi:nodetypes="ccccccccccc" />
+               d="m 320.13818,-195.97975 -1.32383,1.32384 v 13.44177 l 0.48328,0.35444 v -12.82965 l 1.32383,-1.32383 h 6.35297 l 0.78156,0.87264 v -0.42712 l -1.26484,-1.41209 z" />
             <path
                id="path157505"
                style="opacity:0.3;fill:#3f444a;fill-opacity:1;stroke:none;stroke-width:0.241641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -321,18 +269,6 @@
          rdf:about="">
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-        <dc:date>07.05.22</dc:date>
-        <dc:rights>
-          <cc:Agent>
-            <dc:title>Creative Commons Attribution 4.0 International License</dc:title>
-          </cc:Agent>
-        </dc:rights>
-        <dc:source>https://github.com/tachanka61/graphics</dc:source>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Tachanka</dc:title>
-          </cc:Agent>
-        </dc:creator>
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">

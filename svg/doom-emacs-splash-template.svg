@@ -1,57 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
 <svg
-   sodipodi:docname="doomEmacs.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    id="svg5"
    version="1.1"
    viewBox="0 0 142.78185 142.78186"
    height="$height"
    width="$height"
-   inkscape:export-filename="/home/halcyon/Pictures/graphics/png/doom/doom1024.png"
-   inkscape:export-xdpi="192"
-   inkscape:export-ydpi="192"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <title
-     id="title859">Doom Logo</title>
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="false"
-     inkscape:document-units="px"
-     showgrid="false"
-     units="px"
-     showborder="true"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true"
-     inkscape:object-paths="true"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="841.45707"
-     inkscape:cy="319.61226"
-     inkscape:window-width="1356"
-     inkscape:window-height="740"
-     inkscape:window-x="5"
-     inkscape:window-y="23"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     inkscape:snap-global="true"
-     inkscape:snap-midpoints="true" />
+   xmlns:cc="http://creativecommons.org/ns#">
   <defs
      id="defs2">
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient205766">
       <stop
          style="stop-color:$color1;stop-opacity:1"
@@ -63,7 +24,6 @@
          id="stop205764" />
     </linearGradient>
     <filter
-       inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter226062-6"
        x="-0.3"
@@ -71,12 +31,10 @@
        width="1.6"
        height="1.6">
       <feGaussianBlur
-         inkscape:collect="always"
          stdDeviation="6.0859423"
          id="feGaussianBlur226064-2" />
     </filter>
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient205766"
        id="linearGradient1467"
        gradientUnits="userSpaceOnUse"
@@ -85,7 +43,6 @@
        x2="156.67468"
        y2="128.78041" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient205766"
        id="linearGradient1469"
        gradientUnits="userSpaceOnUse"
@@ -94,7 +51,6 @@
        x2="156.67468"
        y2="128.78041" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient205766"
        id="linearGradient1471"
        gradientUnits="userSpaceOnUse"
@@ -103,7 +59,6 @@
        x2="156.67468"
        y2="128.78041" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient205766"
        id="linearGradient1473"
        gradientUnits="userSpaceOnUse"
@@ -112,7 +67,6 @@
        x2="156.67468"
        y2="128.78041" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient205766"
        id="linearGradient1475"
        gradientUnits="userSpaceOnUse"
@@ -121,7 +75,6 @@
        x2="156.67468"
        y2="128.78041" />
     <filter
-       inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter1319"
        x="-0.026999999"
@@ -129,14 +82,11 @@
        width="1.054"
        height="1.054">
       <feGaussianBlur
-         inkscape:collect="always"
          stdDeviation="1.5239997"
          id="feGaussianBlur1321" />
     </filter>
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-433.5369,77.773083)">
     <g
@@ -275,18 +225,15 @@
               <path
                  id="path2054"
                  style="font-size:10.5833px;line-height:1.25;font-family:AmazDooMLeft;-inkscape-font-specification:AmazDooMLeft;fill:$color3;stroke-width:0.805132"
-                 d="m 310.41329,-36.652627 0.64389,0.805119 v 0.253214 h 7.90391 l 1.66088,1.00149 v -0.738973 l -2.19004,-1.32085 z m 0.64389,1.201994 v 23.209953 l -0.25786,0.611849 0.78703,-0.62942 v -22.530924 z"
-                 sodipodi:nodetypes="cccccccccccccc" />
+                 d="m 310.41329,-36.652627 0.64389,0.805119 v 0.253214 h 7.90391 l 1.66088,1.00149 v -0.738973 l -2.19004,-1.32085 z m 0.64389,1.201994 v 23.209953 l -0.25786,0.611849 0.78703,-0.62942 v -22.530924 z" />
               <path
                  id="path2056"
                  style="font-size:10.5833px;line-height:1.25;font-family:AmazDooMLeft;-inkscape-font-specification:AmazDooMLeft;fill:$color3;stroke-width:0.805132"
-                 d="m 323.04353,-36.652627 -1.38493,1.546158 v 14.943275 l 0.52917,0.422712 v -14.307653 l 1.38493,-1.546159 h 6.95616 l 0.91984,0.920358 v -0.529166 l -1.44901,-1.449525 z"
-                 sodipodi:nodetypes="ccccccccccc" />
+                 d="m 323.04353,-36.652627 -1.38493,1.546158 v 14.943275 l 0.52917,0.422712 v -14.307653 l 1.38493,-1.546159 h 6.95616 l 0.91984,0.920358 v -0.529166 l -1.44901,-1.449525 z" />
               <path
                  id="path2060"
                  style="font-size:10.5833px;line-height:1.25;font-family:AmazDooMLeft;-inkscape-font-specification:AmazDooMLeft;fill:$color3;stroke-width:0.805132"
-                 d="m 333.93486,-36.652627 -1.44953,1.449525 v 14.717963 l 0.52917,0.388091 v -14.047721 l 1.44952,-1.449525 h 6.95617 l 0.85576,0.955498 v -0.467673 l -1.38493,-1.546158 z"
-                 sodipodi:nodetypes="ccccccccccc" />
+                 d="m 333.93486,-36.652627 -1.44953,1.449525 v 14.717963 l 0.52917,0.388091 v -14.047721 l 1.44952,-1.449525 h 6.95617 l 0.85576,0.955498 v -0.467673 l -1.38493,-1.546158 z" />
               <path
                  id="path4513"
                  style="fill:$color3;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -304,20 +251,6 @@
          rdf:about="">
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-        <dc:title>Doom Logo</dc:title>
-        <dc:date>07.05.22</dc:date>
-        <dc:rights>
-          <cc:Agent>
-            <dc:title>Creative Commons Attribution 4.0 International License</dc:title>
-          </cc:Agent>
-        </dc:rights>
-        <dc:source>https://github.com/tachanka61/graphics</dc:source>
-        <dc:description>Doom logo using nord colorscheme and AmazDoom font</dc:description>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Tachanka</dc:title>
-          </cc:Agent>
-        </dc:creator>
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
