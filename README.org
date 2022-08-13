@@ -12,7 +12,7 @@
 
 * License
 
-#+html: <p align="center"> <img src="screenshots/doomEmacsNord.png"> </p>
+#+html: <p align="center"> <img src="screenshot/doomEmacsNord.png"> </p>
 
 #+html: <p align="center">
 #+html:     <a href="https://creativecommons.org/licenses/by-sa/4.0/">
