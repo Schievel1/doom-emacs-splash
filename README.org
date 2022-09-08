@@ -133,7 +133,7 @@ The script will ask you for several colors to give as an input. Input the colors
 Make sure to make a pull request to this repo if you created some awesome images for a colorscheme that isn't added yet.  =;-)=
 
 ** Automatically generate in Emacs
-Emacs can automatically generate generate the Doom Emacs logo for you. When ever you switch the color scheme, a new set of images is created and used.
+Emacs can automatically generate the Doom Emacs logo for you. When ever you switch the color scheme, a new set of images is created and used.
 
 To do this, put the file ~doom-emacs-splash-template.svg~ (in the folder ~svg~ on this GitHub) into a subfolder ~splash~ in your Doom config directory (so usually ~~/.doom.d/splash/~).
 
