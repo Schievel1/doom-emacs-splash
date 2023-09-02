@@ -189,6 +189,7 @@ The elisp code below is shamelessly stolen from [[https://github.com/tecosaur/em
     (insert-file-contents template)
     (re-search-forward "$height" nil t)
     (replace-match (number-to-string height) nil nil)
+    (re-search-forward "$height" nil t)
     (replace-match (number-to-string height) nil nil)
     (dolist (substitution fancy-splash-template-colours)
       (goto-char (point-min))
